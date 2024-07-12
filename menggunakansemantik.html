@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Semantik HTML5</title>
+    <style>
+        /* di bawah merupakan contoh penerapan style*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        article {
+            width: 60vw;
+        }
+        article, aside {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contoh Penggunaan Semantik HTML</h1>
+    </header>
+    <main>
+        <content>
+            <article>
+                <h2>Artikel 1</h2>
+                <p>Ini adalah artikel 1 di dalam suatu content.</p>
+            </article>
+            <article>
+                <h2>Artikel 2</h2>
+                <p>Ini adalah artikel 2 di dalam suatu content.</p>
+            </article>
+        </content>
+        
+        <aside>
+            <ul>
+                <li>aside 1</li>
+                <li>aside 2</li>
+                <li>aside 3</li>
+                <li>aside 4</li>
+                <li>aside 5</li>
+            </ul>   
+        </aside>
+    </main>
+    <footer>
+        <small>ini adalah contoh footer</small>
+    </footer>
+</body>
+</html>
